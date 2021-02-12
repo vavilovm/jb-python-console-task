@@ -1,6 +1,6 @@
 # Solution of test task for JB internship [Execution Queue in Python Console](https://internship.jetbrains.com/projects/809/)
 
-## Консольное приложение на Java или Kotlin, которое делает следующее:
+Консольное приложение на Java или Kotlin, которое делает следующее:
 
 * Предлагает пользователю ввести путь до Python executable (до интерпретатора Python)
 * Запускает новый Python процесс, который выполняет следующую команду: <Путь до Python> -m timeit -r 10, где <Путь до Python> - строка, которую ввёл пользователь
