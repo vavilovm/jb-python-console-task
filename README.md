@@ -1,2 +1,9 @@
-# jb-python-console-task
-Solution of test task for JB internship "Execution Queue in Python Console"
+# Solution of test task for JB internship [Execution Queue in Python Console](https://internship.jetbrains.com/projects/809/)
+
+## Консольное приложение на Java или Kotlin, которое делает следующее:
+
+* Предлагает пользователю ввести путь до Python executable (до интерпретатора Python)
+* Запускает новый Python процесс, который выполняет следующую команду: <Путь до Python> -m timeit -r 10, где <Путь до Python> - строка, которую ввёл пользователь
+* Дожидается результата выполнения команды
+* В процессе ожидания, каждую секунду в консоль выводится, сколько секунд с момента запуска прошло
+* После окончания работы Python процесса, результат также выводится в консоль
